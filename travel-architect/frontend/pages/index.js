@@ -86,17 +86,16 @@ export default function Home() {
 
       <div className="relative z-10 min-h-screen">
         {!itinerary ? (
-          /* HERO Section */
           <div className="flex flex-col items-center justify-center min-h-screen p-8 text-center">
-            <span className="inline-block bg-white/15 backdrop-blur-md border border-white/20 px-5 py-2 rounded-full text-xs tracking-widest uppercase mb-6 text-white/90">
-              ✈️ AI-Powered Travel Planning
+            <span className="inline-block bg-white/15 backdrop-blur-md border border-white/20 px-5 py-2 rounded-full text-md tracking-widest mb-6 text-white/90">
+              TripPlanner AI 
             </span>
             <h1 className="font-serif text-[clamp(3rem,8vw,7rem)] font-black leading-none mb-4 bg-gradient-to-br from-white to-[#f0c27f] bg-clip-text text-transparent">
               Your Journey
               <br />
               Awaits
             </h1>
-            <p className="text-lg text-white/70 max-w-md leading-relaxed mb-12 font-light">
+            <p className="text-lg text-white/70 max-w-md leading-relaxed mb-12 font-mono">
               Tell us where you want to go and how you like to travel — we'll
               craft your perfect 3-day adventure.
             </p>

@@ -1,5 +1,4 @@
-# ✈️ AI Travel Architect
-
+# TripPlanner AI 
 A full-stack application that generates 3-day travel itineraries using the Gemini 2.5 Flash API.
 
 **Stack:** FastAPI · Next.js · Gemini API · Docker Compose
@@ -12,7 +11,7 @@ The easiest way to run this application is by using Docker Compose. This ensures
 
 ### 1. Clone the repo
 ```bash
-git clone https://github.com/YOUR_USERNAME/travel-architect.git
+git clone https://github.com/sameerpt/TripPlanner-AI.git
 cd travel-architect
 ```
 
